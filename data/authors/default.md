@@ -1,16 +1,24 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Justin Cheung
+avatar: /static/images/avatar.jpg
+occupation: Software Developer / Goose Watcher
+email: me@j43cheun.dev
+linkedin: https://www.linkedin.com/in/j43cheun
+github: https://github.com/j43cheun
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+# Hello. I'm Justin.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+I'm a software developer based in the Greater Seattle Area in Washington State.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I'm currently working as a software developer at Microsoft on the Hyper-V
+Resource Management and Security (RMS) Team. Prior to this, I was a software
+developer on the Storage Spaces Dev Team at Microsoft, where I worked on storage
+management and storage virtualization for Windows Client, Windows Server, and
+Azure Stack HCI.
+
+Outside of work, I enjoy photography and playing video games. My goto camera is
+the Sony α7 IV and my favorite video games are the Pokémon main series titles
+and Animal Crossing.
+
+My favorite animal is the Canada Goose.
