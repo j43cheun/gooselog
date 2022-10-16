@@ -1,0 +1,90 @@
+---
+title: 'Forest Fire Hell'
+date: '2022-10-15T18:51:00-07:00'
+tags: ['Post-COVID']
+draft: false
+summary: 'A post-COVID update.'
+---
+
+It's been a while since I've last updated this blog. It's been ~2.5 years since
+the start of the COVID-19 pandemic. With the availability of COVID-19 vaccines,
+we are effectively entering a post-COVID era. A lot has changed since then.
+
+# Professional
+
+Late 2021, I interviewed with Google and with the Hyper-V team at Microsoft.
+The intent was to get some interview practice, since I hadn't interviewed in
+6 years. I ended up failing the Google interview (again), maybe from not
+getting enough sleep the night before. Somehow, I ended up passing the
+interview with the Hyper-V team at Microsoft, though I suspect part of it has
+to do with having prior experience on the Core OS team (my old team is
+literally down the hallway from Hyper-V).
+
+I did end up taking the offer from the Hyper-V team at Microsoft. Motivating
+factor was because I felt I had learned all I could on my old team. Since my
+old team is literally down the hallway from my current team, I still keep in
+regular contact with them, which is quite nice since there are a lot of super
+talented folks over in the Storage team that I bother for help from time to
+time.
+
+Since joining the Hyper-V team, I've probably learned more this year ramping up
+on Hyper-V than I did in the last ~2.5 years in quarantine. Prior to joining
+Hyper-V, I thought all VM technologies (e.g., Hyper-V, VirtualBox, etc.) run on
+top of the host. Turns out that with Hyper-V, rather than VMs running on top of
+the host, the host and VMs actually run on top of a baremetal hypervisor. The
+hypervisor implemented by Hyper-V is known as a type-1 hypervisor. I've also
+learned about optimizations such as NUMA locality and ring buffers, which were
+rarely if ever discussed on my old team or in my university operating systems
+course. With NUMA locality, it is usually faster to access memory from the same
+NUMA node as the current processor, which certain drivers and frameworks
+leverage to eke out performance. Meanwhile, ring buffers in kernel mode can be
+mapped into user mode to avoid cost of double buffering for performance
+sensitive workloads. There's still a lot I need to ramp up on. It still boggles
+my mind that virtual machines are a thing.
+
+# Hobbies
+
+Outside of work, I've been doing a lot of retro gaming. During the COVID-19
+pandemic, I compiled and sideloaded emulators on my iPhone to play retro games.
+Unfortunately, the iPhone is super restrictive when it comes to sideloading.
+Ordinarily, sideloaded apps are not allowed on iPhone except for development
+purposes. And these in-development sideloaded apps are only valid for a week
+unless you subscribe to an iOS developer account, where the time limit is
+increased to a year. Android has no such limitation. Due to these and other
+restrictions with the iOS platform, certain emulators are straight up not
+available for iOS.
+
+As a result, I recently decided to puchase a Samsung Galaxy S22 just for retro
+gaming. The US version of the Samsung Galaxy S22 comes with the Qualcomm
+Snapdragon 8 Gen 1 ARM64 CPU. I've paired it with the Razer Kishi V2. Overall,
+it's quite a nice setup for portable retro gaming. It's pretty cool how
+powerful mobile SoCs have gotten over the years. Back in 2011, this would not
+have been possible. My laptop at the time could barely emulate GameCube.
+
+I also considered the possibility of getting the Steam Deck or Ayaneo Air, but
+battery life was a concern. Also, those two systems were backordered for months
+at that time.
+
+# Canada
+
+On July 2022, I went back to Canada to visit my friends and family. There was
+a nasty heat wave across Canada and the US at the time. Otherwise, it was nice
+seeing family and friends in Canada after ~2.5 years away due to COVID-19.
+
+On Labor Day weekend September 2022, I went to visit Vancouver, BC. My
+intention was to spend the weekend taking photos. Ended up spending most of the
+time with my uncle's younger brother's family. Was still a very good weekend
+except for the fact that Greyhound cancelled my return trip without notifying
+me or refunding my ticket. Had to take a return trip with Amtrak the next day
+and missed a day of work. Guess I did save on Taxi/Uber from Seattle back to
+Redmond, so wasn't too bad I guess.
+
+# Forest Fires
+
+Since September 2022, forest fires have been raging in Washington State and
+Oregon. Air quality in Redmond, WA has been moderate to unhealthy. Doesn't help
+that it hasn't rained in ages, which is kind of odd for Seattle this time of
+year. Hoping that the forest fires come to an end soon, as I would like to
+return to outdoor jogging. Using the elliptical just isn't the same...
+
+<img src="/static/images/blog/2022-10-15___forest-fire-hell/aqi.PNG" />
